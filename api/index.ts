@@ -9,7 +9,7 @@ app.get("/api/subscriptions", async (req, res) => {
   const { email, password } = req.query as { email: string; password: string };
   if (!email || !password) {
     return res.status(400).json({
-      msg: "please input email and password!",
+      msg: "Please input email and password!",
     });
   }
   try {
