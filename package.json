@@ -1,5 +1,5 @@
 {
-  "name": "azure-subscription-checker",
+  "name": "azure-status",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
